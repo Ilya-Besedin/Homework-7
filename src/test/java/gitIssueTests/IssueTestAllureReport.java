@@ -14,6 +14,7 @@ public class IssueTestAllureReport {
         //for nav-search-input no needs quotes, but for 'nav-search.input' it needs, use ''
         $("[data-test-selector=nav-search-input]").setValue("Ilya-Besedin/Homework-7").pressEnter();
         $("ul.repo-list li").$("a").click();
+        $("#issues-tab").shouldHave(text("Issues"));
     }
 }
 
