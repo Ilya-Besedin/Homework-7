@@ -12,7 +12,7 @@ import static io.qameta.allure.Allure.step;
 
 public class IssueTestSteps {
 
-    private static final String repository = "Ilya-Besedin/Homework-6";
+    public static final String repository = "Ilya-Besedin/Homework-6";
 
     @Test
     //@Disabled
