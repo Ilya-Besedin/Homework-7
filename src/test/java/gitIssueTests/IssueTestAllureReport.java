@@ -17,7 +17,7 @@ public class IssueTestAllureReport {
         $("[data-test-selector=nav-search-input]").setValue("Ilya-Besedin/Homework-7").pressEnter();
         $("ul.repo-list li").$("a").click();
         //at line 20 made special mistake in cssSelector (change # to .)
-        $(".issues-tab").shouldHave(text("Issues"));
+        $("#issues-tab").shouldHave(text("Issues"));
     }
 }
 
