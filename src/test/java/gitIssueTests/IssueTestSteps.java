@@ -2,7 +2,6 @@ package gitIssueTests;
 
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
@@ -15,7 +14,6 @@ public class IssueTestSteps {
     public static final String repository = "Ilya-Besedin/Homework-6";
 
     @Test
-    //@Disabled
     public void testIssueLambdaSteps() {
         SelenideLogger.addListener("allureReports", new AllureSelenide());
 

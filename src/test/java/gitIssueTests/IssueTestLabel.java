@@ -1,6 +1,5 @@
 package gitIssueTests;
 
-import io.qameta.allure.Allure;
 import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Link;
