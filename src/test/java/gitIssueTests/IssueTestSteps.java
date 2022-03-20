@@ -15,7 +15,6 @@ public class IssueTestSteps {
     public static final String repository = "Ilya-Besedin/Homework-6";
 
     @Test
-    //@Disabled
     public void testIssueLambdaSteps() {
         SelenideLogger.addListener("allureReports", new AllureSelenide());
 
